@@ -58,6 +58,32 @@ The models showed high specificity but low sensitivity, highlighting the difficu
 - Predictive performance varied modestly across age and sex subgroups.
 - More complex machine learning models did not outperform Logistic Regression.
 
+## Visualisations
+
+### Predictor Importance
+
+SHAP analysis identified the predictors with the greatest influence on XGBoost predictions.
+
+![SHAP summary plot](figures/shap_summary.png)
+
+### Model Calibration
+
+Calibration analysis compared predicted probabilities from XGBoost with observed outcome frequencies.
+
+![XGBoost calibration curve](figures/calibration_curve.png)
+
+### Predictor Correlations
+
+Correlations between the main predictor variables were examined before modelling.
+
+![Correlation matrix](figures/correlation_matrix.png)
+
+### Missing Data
+
+Missingness was assessed before iterative imputation.
+
+![Missing data by predictor](figures/missing_data.png)
+
 ## Technologies
 
 - Python
