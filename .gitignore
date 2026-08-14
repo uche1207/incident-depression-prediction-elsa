@@ -1,0 +1,17 @@
+# ELSA data
+*.sav
+data/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+
+# Operating system files
+.DS_Store
+Thumbs.db
