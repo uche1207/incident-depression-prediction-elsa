@@ -1,0 +1,10 @@
+numpy
+pandas
+pyreadstat
+matplotlib
+seaborn
+shap
+statsmodels
+scipy
+scikit-learn
+xgboost
