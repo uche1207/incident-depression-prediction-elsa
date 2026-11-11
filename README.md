@@ -141,7 +141,6 @@ incident-depression-prediction-elsa/
 - **[`03_figures/`](03_figures/)** contains visualisations generated during the analysis.
 - **[`04_dissertation/incident_depression_prediction_elsa_dissertation.pdf`](04_dissertation/incident_depression_prediction_elsa_dissertation.pdf)** contains the full MSc dissertation, covering the research background, methodology, results, discussion and conclusions.
 - **`requirements.txt`** lists the Python libraries required to run the project.
-- **`.gitignore`** specifies files and directories excluded from version control.
 
 ## Limitations
 
